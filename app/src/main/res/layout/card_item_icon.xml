@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:cardUseCompatPadding="true"
+    app:cardElevation="10dp"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/cardClothingIcon"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:paddingTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/isCheckedIcon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:padding="5dp"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardClothingIcon" />
+
+        <ImageView
+            android:id="@+id/specialFeatureIcon0"
+            android:padding="5dp"
+            android:layout_width="30dp"
+
+            android:layout_height="30dp"
+            app:layout_constraintStart_toEndOf="@+id/isCheckedIcon"
+            app:layout_constraintTop_toBottomOf="@+id/cardClothingIcon" />
+
+        <ImageView
+            android:id="@+id/specialFeatureIcon1"
+            android:padding="5dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:layout_constraintStart_toEndOf="@+id/specialFeatureIcon0"
+            app:layout_constraintTop_toBottomOf="@+id/cardClothingIcon" />
+
+        <ImageView
+            android:id="@+id/specialFeatureIcon2"
+            android:padding="5dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:layout_constraintStart_toEndOf="@+id/specialFeatureIcon1"
+            app:layout_constraintTop_toBottomOf="@+id/cardClothingIcon" />
+
+        <ImageView
+            android:id="@+id/specialFeatureIcon3"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:padding="5dp"
+            app:layout_constraintStart_toEndOf="@+id/specialFeatureIcon2"
+            app:layout_constraintTop_toBottomOf="@+id/cardClothingIcon" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

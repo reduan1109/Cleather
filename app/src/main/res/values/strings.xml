@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Cleather</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="MenuTitle">Mine turer</string>
+    <string name="tur_fragment_label">Turinformasjon</string>
+    <string name="maps_fragment_label">Velg lokasjon</string>
+    <string name="calendar_fragment_label">Velg dato</string>
+    <string name="confirm_fragment_label">Fullfør turoppsett</string>
+
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="SelectDate">Velg dato</string>
+    <string name="dateButton">Velg dato</string>
+    <string name="ChosenDate">Ingen dato valgt</string>
+
+    <string name="PlacePlaceholder">Sted i Norge</string>
+    <string name="CreateTripButton">Opprett tur</string>
+    <string name="PlaceNamePlaceholder">TURNAVN</string>
+
+    <string name="tempMainString">%1$.1f°C</string>
+    <string name="tempLowString">Lav: %1$.1f°C</string>
+    <string name="tempHighString">Høy: %1$.1f°C</string>
+
+    <string name="pack_list">Pakkeliste</string>
+    <string name="weather_title">Værmelding</string>
+
+    <!--Date stuff-->
+    <string-array name="weekDays">
+        <item name="0">Mandag</item>
+        <item name="1">Tirsdag</item>
+        <item name="2">Onsdag</item>
+        <item name="3">Torsdag</item>
+        <item name="4">Fredag</item>
+        <item name="5">Lørdag</item>
+        <item name="6">Søndag</item>
+    </string-array>
+    <string name="date_range_format">%1$s - %2$s</string>
+    <string name="date_format">%1$s</string>
+    <string name="picked_date_range">Valgt: %1$s - %2$s</string>
+    <string name="picked_date">Valgt: %1$s</string>
+
+    <string name="unknown_value">NaN</string>
+    <string name="no_internett_error">Ingen internett tilgang</string>
+
+    <string name="unsupported">Denne funksjonen er ikke utviklet ennå :(</string>
+    <string name="welcome_pic_desc">Velkomstbilde.</string>
+    <string name="home_next_fab_desc">Legg til tur. Åpner kart.</string>
+    <string name="dangerSummaryTitle">Farevarsel</string>
+    <string name="trip_frag_danger_title">Farevarsler for området</string>
+    <string name="welcome_text">Du har ikke planlagt en tur enda. Trykk på \"+\" for å planlegge en tur.</string>
+</resources>

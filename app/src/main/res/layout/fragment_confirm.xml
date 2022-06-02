@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.confirm.ConfirmFragment">
+
+    <EditText
+        android:id="@+id/TripName"
+        android:layout_height="60dp"
+        android:layout_width="220dp"
+        android:layout_gravity="center|top"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:hint="@string/PlaceNamePlaceholder"
+        android:inputType="text"
+        android:textSize="25sp"
+        android:autofillHints="tripName" />
+
+    <View
+        android:layout_marginTop="110dp"
+        android:layout_gravity="center|top"
+        android:layout_height="1dp"
+        android:layout_width="250dp"
+        android:background="#555555" />
+
+    <TextView
+        android:id="@+id/LocationText"
+        android:layout_width="match_parent"
+        android:layout_gravity="center|top"
+        android:layout_height="60dp"
+        android:text="@string/PlacePlaceholder"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginTop="120dp"
+        />
+
+    <View
+        android:layout_marginTop="190dp"
+        android:layout_gravity="center|top"
+        android:layout_height="1dp"
+        android:layout_width="250dp"
+        android:background="#555555" />
+
+    <TextView
+        android:id="@+id/DateText"
+        android:layout_width="match_parent"
+        android:layout_gravity="center|top"
+        android:layout_height="60dp"
+        android:text="@string/ChosenDate"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginTop="200dp"
+        />
+
+    <Button
+        android:id="@+id/CalendarButton"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:backgroundTint="#0062BF"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="260dp"
+        android:text="@string/calendar_fragment_label"/>
+
+    <View
+        android:layout_marginTop="320dp"
+        android:layout_gravity="center|top"
+        android:layout_height="1dp"
+        android:layout_width="250dp"
+        android:background="#555555" />
+
+    <Button
+        android:id="@+id/ConfirmButton"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="80dp"
+        android:backgroundTint="#FFDD15"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:text="@string/CreateTripButton"/>
+
+</FrameLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/HomeFragment">
+
+    <fragment
+        android:id="@+id/HomeFragment"
+        android:name="com.example.cleather.ui.home.HomeFragment"
+        android:label="@string/MenuTitle"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_HomeFragment_to_TripFragment"
+            app:destination="@id/TripFragment" />
+        <action
+            android:id="@+id/action_HomeFragment_to_MapFragment"
+            app:destination="@id/MapFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/TripFragment"
+        android:name="com.example.cleather.ui.trip.TripFragment"
+        android:label="@string/tur_fragment_label"
+        tools:layout="@layout/fragment_trip">
+
+        <action
+            android:id="@+id/action_TripFragment_to_HomeFragment"
+            app:destination="@id/HomeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/MapFragment"
+        android:name="com.example.cleather.ui.map.MapsFragment"
+        android:label="@string/maps_fragment_label"
+        tools:layout="@layout/fragment_maps">
+
+        <action
+            android:id="@+id/action_MapFragment_to_ConfirmFragment"
+            app:destination="@id/ConfirmFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ConfirmFragment"
+        android:name="com.example.cleather.ui.confirm.ConfirmFragment"
+        android:label="@string/confirm_fragment_label"
+        tools:layout="@layout/fragment_confirm">
+
+        <action
+            android:id="@+id/action_ConfirmFragment_to_HomeFragment"
+            app:destination="@id/HomeFragment" />
+    </fragment>
+</navigation>
