@@ -1,4 +1,4 @@
-Case
+Case <br>
 Som case for prosjektet valgte vi åpen case. Grunnen til at vi valgte åpen case var fordi vi simpelthen ikke 
 følte at det var mye interesse for de andre casene i gruppen. Vi ville heller gjøre noe nytt og nyskapende. 
 Derfor bestemte vi oss for å utvikle en app som skal bruke værdata til å generere en pakkeliste for en planlagt 
@@ -10,7 +10,7 @@ funksjonaliteten skulle gi ekstra verdi til brukeren. Blant annet skulle appen k
 gjenstander enn klær, f.eks. solkrem og solbriller basert på UV-indeksen. I tillegg så var det også planer om 
 å legge til funksjonalitet som kunne gi brukeren beskjed om eventuelle farevarsel som er aktuelle for turen.
 
-Løsning
+Løsning <br>
 Vi bestemte oss for at løsningen skulle være en app som heter Cleather. Appen kan blant annet fungere som en 
 pakkeliste og har støtte for lokallagring av informasjon på mobilen sånn at den kan brukes når man ikke har 
 tilgang til nett. Den er også designet på en enkel og interessant måte, med farger inspirert av Meteorologisk 
