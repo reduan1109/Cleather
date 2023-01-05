@@ -1,3 +1,6 @@
+Ikke fungerende! <br>
+API nøkkler er døde og nye må brukes for et fungerende produkt.
+
 Case <br>
 Som case for prosjektet valgte vi åpen case. Grunnen til at vi valgte åpen case var fordi vi simpelthen ikke 
 følte at det var mye interesse for de andre casene i gruppen. Vi ville heller gjøre noe nytt og nyskapende. 
